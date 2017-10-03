@@ -1,0 +1,31 @@
+Input File Details:
+
+1. Sentiment Columns: 
+What is the primary reason for your score? -N
+What can we do to improve your experience? -O
+Additional comments about Digital River's platform -X
+Additional comments about the Client Operations team -AV 
+
+2. Label Columns: 
+Region -C
+Company -D
+Which of the following best describes your role? -K
+Do you know who your Account Management team is and are you utilizing their services? -Y
+
+Output File Details: 
+
+1. Sentiment Columns: 
+What is the primary reason for your score? -N
+Sentiment of N's Column -O
+What can we do to improve your experience? -P (O became P)
+Sentiment of P's Column -Q
+Additional comments about Digital River's platform -Z (X became Z)
+Sentiment of Z's Column -AA
+Additional comments about the Client Operations team -AY (AV became AY)
+Sentiment of AV's Column -AZ
+
+2. Label Columns: 
+Region -C
+Company -D
+Which of the following best describes your role? -K
+Do you know who your Account Management team is and are you utilizing their services? -AB
